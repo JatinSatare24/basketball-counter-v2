@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'customfont';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+
+}
+
+.font {
+    font-family: 'customfont';
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #1B244A;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 575px;
+    height: 425px;
+    border: 1px solid red;
+
+}
+
+h2 {
+    color: white;
+}
+
+#main-display {
+    display: flex;
+
+}
+
+.counter_container {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    /* border: 1px solid black;  */
+}
+
+.score_display {
+    border-radius: 10px;
+    width: 155px;
+    height: 120px;
+    /* border: 1px solid yellow; */
+    background-color: black;
+}
+
+.digits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px; 
+    width: 150px;
+    height: 115px;
+    /* border: 1px solid white; */
+}
+
+.score_update {
+    margin: 20px 0px;
+    height: 45px;
+    width: 155px;
+    /* border: 1px solid green; */
+}
+
+.single_score_update {
+    border-radius: 5px;
+    color: white;
+    background-color: inherit;
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+}
+
+
+#reset_button button {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
