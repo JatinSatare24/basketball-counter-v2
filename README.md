@@ -1,28 +1,20 @@
-# 🏀 Basketball Scoreboard
+# 🏀 Basketball Scoreboard v2
 
-![Tech](https://img.shields.io/badge/tech-HTML%20%7C%20CSS%20%7C%20JS-orange)
-![Status](https://img.shields.io/badge/status-active-success)
+![Status](https://img.shields.io/badge/status-live-success)
 
-> **A digital scoreboard to track points for Home and Guest teams in real-time.**
+> **Version 2.0**: A refined digital scoreboard for tracking basketball games.
 
-## 🎯 The Goal
-Standard scoreboards are expensive or hard to set up. This is a lightweight, web-based solution to track basketball scores instantly on any device.
+## ⚡ Updates in v2
+* **Refactored Logic:** Cleaner JavaScript functions for score updates.
+* **New UI:** Improved font hierarchy and layout.
+* **Game Reset:** Added functionality to clear scores instantly.
 
-## ✨ Features
-* **Point System:** dedicated buttons for +1, +2, and +3 points.
-* **Dual Team Tracking:** Separate counters for "Home" and "Guest".
-* **Leader Highlighting:** Visual cues to show which team is winning (Coming Soon).
-* **Reset Function:** Instantly clear the board for a new game.
+## 🛠️ Features
+* **Dual Tracking:** Separate counters for Home and Guest teams.
+* **Point System:** Standard +1, +2, and +3 increments.
+* **Leader Highlighting:** Visual emphasis on the winning team.
 
-## 🛠️ Tech Stack
-* **Structure:** HTML5
-* **Styling:** CSS3 (Flexbox for layout, custom fonts)
-* **Logic:** Vanilla JavaScript (DOM manipulation)
-
-## 🚀 How to Run
-1. Clone the repo.
-2. Open `index.html`.
-3. Start the game! ⛹️‍♂️
-
----
-*Created by Jatin.*
+## 🚀 Usage
+1.  Click the numbered buttons to add points.
+2.  Watch the score update in real-time.
+3.  Hit "New Game" to reset everything to 0.
